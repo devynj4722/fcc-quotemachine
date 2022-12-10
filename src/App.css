@@ -1,0 +1,45 @@
+#wrapper {
+  display:flex;
+align-items:center;
+justify-content: center;
+  height: 500px;
+ width: 700px;
+ 
+ 
+}
+.quote-box{
+width: 800px;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  background-color: #ee9927;
+  padding: 40px 50px;
+  background: rgba( 204, 44, 44, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 2px solid rgba( 255, 255, 255, 0.18 );
+}
+.App {
+  background: rgb(232,159,62);
+  background: linear-gradient(180deg, rgba(232,159,62,1) 0%, rgba(84,103,198,1) 76%);
+  height: 100vh;
+  
+}
+
+#text{
+  font-size: 1.75em;
+  text-align: center;
+}
+#buttons {
+  float: right;
+  clear: right;
+  
+}
+.author{
+  margin-top: 50px;
+}
+.newQuote {
+  margin-left: 10px;
+}
